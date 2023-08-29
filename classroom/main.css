@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+ width: 100%;
+ height: 100%;
+}
+
+.header-content{
+    background-color: papayawhip;
+    padding: 6px;
+    padding: 16px;
+    background-image: url("https://oc-assets.imgix.net/modules/sdzv4-main/latest/images/home_banner-16deed9ecd0a8ef5b79c.jpg?auto=compress,format&q=80&w=568&dpr=1");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    padding: 70px;
+    text-align: left;
+}
+
+.header-content ul{
+list-style: none;
+display: flex;
+}
+.header-content ul li{
+    margin: 5px;
+}
+.header-content ul .btn{
+    background-color: blue;
+}
+
+.header-content ul .blue{
+    color: blue;
+}
+
+.header-content ul a {
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 6px;
+    border-radius: 8px 8px;
+    color: #fff;
+    padding: 10px;
+   
+}
+header nav {
+    display: flex;
+  list-style: none;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  text-align: center;
+}
+
+.career a {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px;
+}
